@@ -2,7 +2,7 @@
 This example demonstrates how to open images and PDF-files using ASPxFileManager, ASPxPanel and ASPxImage controls.
 ![Sample](./Sample.png)
  ## Overview
-The [ASPxFileManager.SelectedFileOpened](https://docs.devexpress.com/AspNet/js-ASPxClientFileManager.SelectedFileOpened) event is handled to open the file using ASPxImage or ASPxPanel inside a popup.
+The [ASPxFileManager.SelectedFileOpened](https://docs.devexpress.com/AspNet/js-ASPxClientFileManager.SelectedFileOpened) event is handled to open the file using ASPxImage to show images or ASPxPanel with [Embed tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) to show PDF inside a popup.
 ## Files to Look At
 [Default.aspx](./CS/OpenPdfOrImage/Default.aspx)
 ## Documentation
