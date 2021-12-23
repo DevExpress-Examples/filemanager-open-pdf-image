@@ -1,4 +1,4 @@
-# How to opend PDF and Images using FileManager
+# FileManager for Web Forms - How to open PDF and Images in popup
 This example demonstrates how to open images and PDF-files using ASPxFileManager, ASPxPanel and ASPxImage controls.
 ![Sample](./Sample.png)
  ## Overview
