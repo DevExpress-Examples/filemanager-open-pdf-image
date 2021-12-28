@@ -12,6 +12,9 @@ The [ASPxFileManager.SelectedFileOpened](https://docs.devexpress.com/AspNet/js-A
 [Default.aspx](./CS/OpenPdfOrImage/Default.aspx)
 ## Documentation
 [ASPxImage Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage)
+
 [ASPxFileManager Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager)
+
 [ASPxPanel Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel)
+
 [Recommended way to embed PDF in HTML - Stack Overflow](https://stackoverflow.com/questions/291813/recommended-way-to-embed-pdf-in-html#comment17379530_291823)
