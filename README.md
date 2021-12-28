@@ -24,7 +24,7 @@ Depending on the file type, the handler manipulates the following controls conta
 
 1. The [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage) control - Displays images.
 
-2. The [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) control - Uses the [<embed>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) element to display **PDF** files.
+2. The [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) control - Uses the [`<embed>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) element to display **PDF** files.
 
 ## Documentation
 
