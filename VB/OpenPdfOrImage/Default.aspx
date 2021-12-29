@@ -45,7 +45,7 @@
                         ClientInstanceName="panel">
                         <PanelCollection>
                             <dx:PanelContent>
-                                <embed id="pdf_template" type='application/pdf' width="600px" height="500px"/>
+                                <embed id="pdf_template" type='application/pdf' width="600" height="500"/>
                             </dx:PanelContent>
                         </PanelCollection>
                     </dx:ASPxPanel>
