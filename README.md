@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# File manager for Web Forms - How to open PDF files and images in a popup window
+# The file manager for Web Forms - How to open PDF files and images in a popup window
 
 This example demonstrates how to use the [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager), [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework), and [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage) controls to open **PDF** files and images in a [popup window](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework).
 
