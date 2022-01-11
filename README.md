@@ -6,7 +6,7 @@
 
 # The file manager for Web Forms - How to open PDF files and images in a popup window
 
-This example demonstrates how to use the [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager), [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework), and [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage) controls to open **PDF** files and images in a [popup window](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework).
+This example uses an [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) to display folder contents. Users can click image and **PDF** files to preview their content in a popup window. The preview functionality uses [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework),  [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage), and [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) controls. 
 
 ![Sample](./Sample.png)
 
@@ -18,13 +18,13 @@ This example demonstrates how to use the [ASPxFileManager](https://docs.devexpre
 
 ## Implementation Details
 
-The [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) control allows users to manage files. This example handles the [ASPxFileManager.SelectedFileOpened](https://docs.devexpress.com/AspNet/js-ASPxClientFileManager.SelectedFileOpened) event to determine the opened file's type. 
+The [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) displays a list of image and **PDF** files. When users attempt to open a file, the control raises the [ASPxFileManager.SelectedFileOpened](https://docs.devexpress.com/AspNet/js-ASPxClientFileManager.SelectedFileOpened) event. The handler determines the file type and shows the preview. 
 
-Depending on the file type, the handler manipulates the following controls contained in the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework) control:
+The handler activates the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework) and displays one of the following embedded controls depending on the file type:
 
-1. The [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage) control - Displays images.
+- The [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage) control. Displays images.
 
-2. The [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) control - Uses the [`<embed>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) element to display **PDF** files.
+- The [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) control. Uses the [`<embed>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) element to display **PDF** files.
 
 ## Documentation
 
