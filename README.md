@@ -3,14 +3,31 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1055324)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# FileManager for Web Forms - How to open PDF and Images in popup
-This example demonstrates how to open images and PDF-files using ASPxFileManager, ASPxPanel and ASPxImage controls.
+
+# The file manager for Web Forms - How to open PDF files and images in a pop-up window
+
+This example uses an [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) to display folder contents. Users can click image and **PDF** files to preview their content in a pop-up window. The preview functionality uses the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework),  [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage), and [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) controls. 
+
 ![Sample](./Sample.png)
- ## Overview
-The [ASPxFileManager.SelectedFileOpened](https://docs.devexpress.com/AspNet/js-ASPxClientFileManager.SelectedFileOpened) event is handled to open the file using ASPxImage to show images or ASPxPanel with [Embed tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) to show PDF inside a popup.
+
 ## Files to Look At
-[Default.aspx](./CS/OpenPdfOrImage/Default.aspx)
+
+* [Default.aspx](./CS/OpenPdfOrImage/Default.aspx) (VB: [Default.aspx](./VB/OpenPdfOrImage/Default.aspx))
+
+* [Default.aspx.cs](./CS/OpenPdfOrImage/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/OpenPdfOrImage/Default.aspx.vb))
+
+## Implementation Details
+
+The [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) displays a list of image and **PDF** files. When users attempt to open a file, the control raises the [ASPxFileManager.SelectedFileOpened](https://docs.devexpress.com/AspNet/js-ASPxClientFileManager.SelectedFileOpened) event. The handler determines the file type and shows the preview. 
+
+The handler activates the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework) and displays one of the following embedded controls depending on the file type:
+
+- The [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage) control. Displays images.
+
+- The [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) control. Uses the [`<embed>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) element to display **PDF** files.
+
 ## Documentation
+
 [ASPxImage Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage)
 
 [ASPxFileManager Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager)
