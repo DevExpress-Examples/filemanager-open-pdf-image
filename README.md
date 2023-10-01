@@ -13,7 +13,6 @@ This example uses an [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExp
 ## Files to Look At
 
 * [Default.aspx](./CS/OpenPdfOrImage/Default.aspx) (VB: [Default.aspx](./VB/OpenPdfOrImage/Default.aspx))
-
 * [Default.aspx.cs](./CS/OpenPdfOrImage/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/OpenPdfOrImage/Default.aspx.vb))
 
 ## Implementation Details
@@ -23,15 +22,11 @@ The [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFile
 The handler activates the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl?p=netframework) and displays one of the following embedded controls depending on the file type:
 
 - The [ASPxImage](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage) control. Displays images.
-
 - The [ASPxPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel?p=netframework) control. Uses the [`<embed>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed) element to display **PDF** files.
 
 ## Documentation
 
-[ASPxImage Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage)
-
-[ASPxFileManager Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager)
-
-[ASPxPanel Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel)
-
-[Recommended way to embed PDF in HTML - Stack Overflow](https://stackoverflow.com/questions/291813/recommended-way-to-embed-pdf-in-html#comment17379530_291823)
+* [ASPxImage Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxImage)
+* [ASPxFileManager Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager)
+* [ASPxPanel Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel)
+* [Recommended way to embed PDF in HTML - Stack Overflow](https://stackoverflow.com/questions/291813/recommended-way-to-embed-pdf-in-html#comment17379530_291823)
