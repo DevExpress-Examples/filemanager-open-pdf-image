@@ -32,7 +32,7 @@ The handler activates the [ASPxPopupControl](https://docs.devexpress.com/AspNet/
 * [ASPxPanel Class](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanel)
 * [Recommended way to embed PDF in HTML - Stack Overflow](https://stackoverflow.com/questions/291813/recommended-way-to-embed-pdf-in-html#comment17379530_291823)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=filemanager-open-pdf-image&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=filemanager-open-pdf-image&~~~was_helpful=no)
 
